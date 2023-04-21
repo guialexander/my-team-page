@@ -19,21 +19,26 @@ This is a solution to the Sprint 1 HTML 1 project of the Make It Real course.
 
 
 ## Overview :
--It is a program to identify that the page does not exist 
+-It is a program where SASS is practiced, to get to that, have the bases of css and html.
+We applied to the project display-flex, selectors, and the css was also compiled through Live Sass Compiler.
 
 ### The challenge
 
 Users should be able to:
 
--identify page spaces, and build with html and css.
+-work with BEM and SASS,
+nest the styles thanks to SASS, identify how to put the classes to HTML to take the styles
 
 ### Screenshot
 
-![](./img/Screenshot_1.jpg)
+![](./img/desktop.jpg)
+![](./img/movile.jgp.jpg)
 
 
 
 ## My process
+- CSS: ⭐️⭐️
+- HTML: ⭐️⭐️
 
 
 ### Built with
@@ -46,37 +51,63 @@ Users should be able to:
 ### What I learned
 
 
-This exercise I was able to learn to use display flex for the order of the page an example:
+I practiced and learned sass, how to compile, also how to nest the classes to place styles, handle display flex.
+
+I leave an example of how we take the classes in html and in sass.
+
+-example:
 
 ```html
-  <section>
-        <div >
-            <h>I have bad news <br> for you</h>
-        </div>
-
-        <div clase=" texto2">
-            <p>The page you are looking <br> for might be removed or is <br> Temporarily Unavailable</p>
-        </div>
-       
-        <a target="_blank" class ="btn" href="">BACK TO HOMEPAGE</a>
-        </section>
+    <section class="caja caja__imagens__aling"> 
+         <div class="caja__imagens">
+            <img src="./img/ArtDirector.jpg" height="300px" width="200px" alt="">
+            <section class="caja__imagens__piefoto">Saba Cabrera</section>
+         </div>
+         <section class="caja__imagens__latera">ART Director</section>
+    </section> 
 ```
-```css
-section{
-        display: flex;
-        flex-direction: column;
+``` scss
+.caja{
+    width: 100%;
+    padding: 20px;
+    
+    display: flex;
+    justify-content:center;
+    
+    &__imagens{
+        
+       
     }
+    &__imagens__latera{
+        
+        color:black;
+        font-weight:bold;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        
+   }
+   &__imagens__aling{
+    padding: 60px 0px;
+    display: flex;
+    align-items:end;
+    
+   }
+}
 ```
 ### Continued development
-- I will continue practicing to have a better handling of DOM, studying and consulting my mentors so that every day I improve my knowledge.
+- I will continue practicing to have a better command of HTML and SASS, consulting my mentors studying on my own so that every day I improve my knowledge.
 
  ### Useful resources
 - https://classroom.makeitreal.camp/courses/82/topics/353/progress -- This helped me I will use it in the future.
+- https://sass-lang.com/install
+- https://flexboxfroggy.com/#es
+- https://developer.mozilla.org/es/docs/Web/CSS/text-orientation
 
 ## Author
 
 - email - [guialexander1@gmail.com]
 - Twitter - [@guialexander1](https://www.twitter.com/guialexander1)
+- github: [guialexander](https://github.com/)
 
 ## Acknowledgments
 
