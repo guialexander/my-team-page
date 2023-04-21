@@ -2,7 +2,6 @@
 
 This is a solution to the Sprint 1 HTML 1 project of the Make It Real course.
 
-## Table of contents
 
 ## Table of contents
 
@@ -26,7 +25,7 @@ We applied to the project display-flex, selectors, and the css was also compiled
 
 Users should be able to:
 
--work with BEM and SASS,
+-work with BEM and SASS, y Responsive web design
 nest the styles thanks to SASS, identify how to put the classes to HTML to take the styles
 
 ### Screenshot
@@ -44,9 +43,10 @@ nest the styles thanks to SASS, identify how to put the classes to HTML to take 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS (SASS) 
 - Flexbox
 - Mobile-first workflow
+- Responsive web design
 
 ### What I learned
 
@@ -107,7 +107,7 @@ I leave an example of how we take the classes in html and in sass.
 
 - email - [guialexander1@gmail.com]
 - Twitter - [@guialexander1](https://www.twitter.com/guialexander1)
-- github: [guialexander](https://github.com/)
+- github: [guialexander]()
 
 ## Acknowledgments
 
