@@ -1,0 +1,29 @@
+$color_Primary:#000000;
+$color_fondocabecera:white;
+$size_fuente:18px;
+$size_fuente2:14px;
+$Fonttipe: arial,verdana,;
+$fontWeight:500;
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: $color_fondocabecera;
+    padding: 10px 20px;
+    align-items: center;
+   
+}
+
+.caja{
+    border: 5px solid blue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
