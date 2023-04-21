@@ -4,26 +4,77 @@ $size_fuente:18px;
 $size_fuente2:14px;
 $Fonttipe: arial,verdana,;
 $fontWeight:500;
+//mobile
 
-body{
-
-    display: flex;
-    flex-direction: column;
-    
+*{
+margin: 0px;
 
 }
+
 header{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     background-color: $color_fondocabecera;
     padding: 10px 20px;
     align-items: center;
    
 }
+main{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .caja{
-    border: 5px solid blue;
+    width: 100%;
+    padding: 20px;
+    
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content:center;
+    
+    &__imagens{
+        
+       
+    }
+    &__imagens__latera{
+        
+        color:black;
+        font-weight:bold;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        
    }
+   &__imagens__aling{
+    padding: 60px 0px;
+    display: flex;
+    align-items:end;
+    
+   }
+}
+
+// cambia cuando supera 375px
+@media (min-width: 375px){
+   
+    .caja{
+
+        width: 30%;
+      }
+      header{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        background-color: $color_fondocabecera;
+        padding: 10px 20px;
+        align-items: center;
+       
+    }
+
+    footer{
+        background-color: rgb(31, 83, 206);
+        opacity: 0,5;
+        text-align: center;
+    }
+      
+}
